@@ -3,7 +3,7 @@ import CarouselSlider from "./CarouselSlider";
 
 export default function main() {
   return (
-    <main className="basis-[90%] flex flex-col gap-[1rem] overflow-x-hidden">
+    <main className="flex flex-col gap-[1rem] overflow-x-hidden">
       {/* Search input field */}
       <div className="flex items-center w-full gap-[.6rem]">
         <CiSearch className="text-white text-[1.5rem] font-bold" />
