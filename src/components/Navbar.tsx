@@ -1,7 +1,7 @@
 
 export default function Navbar() {
   return (
-    <nav className="rounded-xl bg-semi-dark-blue flex flex-col h-full p-[1.55rem] w-[5%] justify-between">
+    <nav className="rounded-xl bg-semi-dark-blue flex flex-col h-full p-[1.55rem] w-[5%] justify-betweenq">
       <article className="flex flex-col gap-[3rem]">
         <div className="flex flex-col">
           <img src="/assets/logo.svg" alt="nav-movies" />

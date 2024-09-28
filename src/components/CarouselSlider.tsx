@@ -1,54 +1,145 @@
 export default function CarouselSlider() {
   return (
-    // <div className="border rounded-box">
-    //   <div className="carousel-item">
-    //     <img
-    //       src="https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp"
-    //       alt="Burger"
-    //     />
-    //   </div>
-    //   <div className="carousel-item">
-    //     <img
-    //       src="https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp"
-    //       alt="Burger"
-    //     />
-    //   </div>
-    //   <div className="carousel-item">
-    //     <img
-    //       src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp"
-    //       alt="Burger"
-    //     />
-    //   </div>
-    //   <div className="carousel-item">
-    //     <img
-    //       src="https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp"
-    //       alt="Burger"
-    //     />
-    //   </div>
-    //   <div className="carousel-item">
-    //     <img
-    //       src="https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp"
-    //       alt="Burger"
-    //     />
-    //   </div>
-    //   <div className="carousel-item">
-    //     <img
-    //       src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp"
-    //       alt="Burger"
-    //     />
-    //   </div>
-    //   <div className="carousel-item">
-    //     <img
-    //       src="https://img.daisyui.com/images/stock/photo-1601004890684-d8cbf643f5f2.webp"
-    //       alt="Burger"
-    //     />
-    //   </div>
-    // </div>
+    <section className="carousel rounded-box overflow-x-hidden">
+      <div className="grid grid-flow-col auto-cols-[minmax(0, 1fr))] gap-x-[2rem]">
+        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+          <div className="ml-auto w-[10%]">
+            <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
+          </div>
+          <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
+            <p className="opacity-[0.75]">2019</p>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <div className="flex items-center gap-[.3rem]">
+              <img src="/assets/movie.svg" alt="movie-icon" />
+              <p className="opacity-[0.75]">Movie</p>
+            </div>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <p className="opacity-[0.75]">PG</p>
+          </div>
+          <h1 className="text-white font-bold text-[2rem] leading-normal">
+            Beyond Earth
+          </h1>
+        </article>
 
-    <div className="grid">
-        <div>
-            
-        </div>
-    </div>
+        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+          <div className="ml-auto w-[10%]">
+            <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
+          </div>
+          <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
+            <p className="opacity-[0.75]">2019</p>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <div className="flex items-center gap-[.3rem]">
+              <img src="/assets/movie.svg" alt="movie-icon" />
+              <p className="opacity-[0.75]">Movie</p>
+            </div>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <p className="opacity-[0.75]">PG</p>
+          </div>
+          <h1 className="text-white font-bold text-[2rem] leading-normal">
+            Beyond Earth
+          </h1>
+        </article>
+
+        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+          <div className="ml-auto w-[10%]">
+            <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
+          </div>
+          <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
+            <p className="opacity-[0.75]">2019</p>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <div className="flex items-center gap-[.3rem]">
+              <img src="/assets/movie.svg" alt="movie-icon" />
+              <p className="opacity-[0.75]">Movie</p>
+            </div>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <p className="opacity-[0.75]">PG</p>
+          </div>
+          <h1 className="text-white font-bold text-[2rem] leading-normal">
+            Beyond Earth
+          </h1>
+        </article>
+
+        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+          <div className="ml-auto w-[10%]">
+            <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
+          </div>
+          <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
+            <p className="opacity-[0.75]">2019</p>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <div className="flex items-center gap-[.3rem]">
+              <img src="/assets/movie.svg" alt="movie-icon" />
+              <p className="opacity-[0.75]">Movie</p>
+            </div>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <p className="opacity-[0.75]">PG</p>
+          </div>
+          <h1 className="text-white font-bold text-[2rem] leading-normal">
+            Beyond Earth
+          </h1>
+        </article>
+
+        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+          <div className="ml-auto w-[10%]">
+            <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
+          </div>
+          <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
+            <p className="opacity-[0.75]">2019</p>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <div className="flex items-center gap-[.3rem]">
+              <img src="/assets/movie.svg" alt="movie-icon" />
+              <p className="opacity-[0.75]">Movie</p>
+            </div>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <p className="opacity-[0.75]">PG</p>
+          </div>
+          <h1 className="text-white font-bold text-[2rem] leading-normal">
+            Beyond Earth
+          </h1>
+        </article>
+
+        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+          <div className="ml-auto w-[10%]">
+            <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
+          </div>
+          <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
+            <p className="opacity-[0.75]">2019</p>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <div className="flex items-center gap-[.3rem]">
+              <img src="/assets/movie.svg" alt="movie-icon" />
+              <p className="opacity-[0.75]">Movie</p>
+            </div>
+            <span>
+              <img src="/assets/oval.svg" alt="oval-dot" />
+            </span>
+            <p className="opacity-[0.75]">PG</p>
+          </div>
+          <h1 className="text-white font-bold text-[2rem] leading-normal">
+            Beyond Earth
+          </h1>
+        </article>
+      </div>
+    </section>
   );
 }
