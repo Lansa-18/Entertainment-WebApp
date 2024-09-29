@@ -1,5 +1,6 @@
 import { CiSearch } from "react-icons/ci";
 import CarouselSlider from "./CarouselSlider";
+import RecommendedMovies from "../components/RecommendedMovies";
 
 export default function main() {
   return (
@@ -15,14 +16,17 @@ export default function main() {
       </div>
 
       <div className="text-white flex items-center gap-[1rem]">
-        <p className="text-[3.2rem] leading-normal tracking-[-0.5px]">
+        <p className="text-[2.2rem] leading-normal tracking-[-0.5px]">
           Trending
         </p>
         <span>(Scroll sideways for more)</span>
       </div>
 
       {/* Carousel slider */}
-      <CarouselSlider />
+      <div className="border flex flex-col gap-[1rem]">
+        <CarouselSlider />
+        <RecommendedMovies />
+      </div>
     </main>
   );
 }

@@ -1,9 +1,9 @@
 export default function CarouselSlider() {
   return (
-    <section className="carousel rounded-box overflow-x-hidden">
+    <section className="carousel rounded-box overflow-x-auto mb-[1rem]">
       <div className="grid grid-flow-col auto-cols-[minmax(0, 1fr))] gap-x-[2rem]">
         <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
-          <div className="ml-auto w-[10%]">
+          <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
           <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
@@ -26,7 +26,7 @@ export default function CarouselSlider() {
         </article>
 
         <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
-          <div className="ml-auto w-[10%]">
+          <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
           <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
@@ -49,7 +49,7 @@ export default function CarouselSlider() {
         </article>
 
         <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
-          <div className="ml-auto w-[10%]">
+          <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
           <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
@@ -72,7 +72,7 @@ export default function CarouselSlider() {
         </article>
 
         <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
-          <div className="ml-auto w-[10%]">
+          <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
           <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
@@ -95,7 +95,7 @@ export default function CarouselSlider() {
         </article>
 
         <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
-          <div className="ml-auto w-[10%]">
+          <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
           <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
@@ -118,7 +118,7 @@ export default function CarouselSlider() {
         </article>
 
         <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
-          <div className="ml-auto w-[10%]">
+          <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
           <div className="flex gap-[.7rem] items-center text-white mt-[4.3rem]">
