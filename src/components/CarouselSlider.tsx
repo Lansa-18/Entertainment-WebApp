@@ -25,7 +25,7 @@ export default function CarouselSlider() {
           </h1>
         </article>
 
-        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+        {/* <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
           <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
@@ -46,9 +46,9 @@ export default function CarouselSlider() {
           <h1 className="text-white font-bold text-[2rem] leading-normal">
             Beyond Earth
           </h1>
-        </article>
+        </article> */}
 
-        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+        {/* <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
           <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
@@ -69,9 +69,9 @@ export default function CarouselSlider() {
           <h1 className="text-white font-bold text-[2rem] leading-normal">
             Beyond Earth
           </h1>
-        </article>
+        </article> */}
 
-        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+        {/* <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
           <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
@@ -92,9 +92,9 @@ export default function CarouselSlider() {
           <h1 className="text-white font-bold text-[2rem] leading-normal">
             Beyond Earth
           </h1>
-        </article>
+        </article> */}
 
-        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+        {/* <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
           <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
@@ -115,9 +115,9 @@ export default function CarouselSlider() {
           <h1 className="text-white font-bold text-[2rem] leading-normal">
             Beyond Earth
           </h1>
-        </article>
+        </article> */}
 
-        <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
+        {/* <article className="carousel-item bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat w-[27rem] p-[1rem] rounded-xl flex flex-col">
           <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
@@ -138,7 +138,7 @@ export default function CarouselSlider() {
           <h1 className="text-white font-bold text-[2rem] leading-normal">
             Beyond Earth
           </h1>
-        </article>
+        </article> */}
       </div>
     </section>
   );

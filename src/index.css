@@ -11,3 +11,7 @@
 .scrollable-element::-webkit-scrollbar {
   display: none; /* For Chrome, Safari, and newer versions of Edge */
 }
+
+/* html {
+  font-size: 62.75%;
+} */
