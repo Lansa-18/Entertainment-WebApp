@@ -4,7 +4,7 @@ export default function CarouselSlider() {
   return (
     <section className="carousel mb-[1rem] overflow-x-auto rounded-box">
       <div className="auto-cols-[minmax(0, 1fr))] grid grid-flow-col gap-x-[2rem]">
-        <article className="group carousel-item relative flex w-[25rem] cursor-pointer flex-col rounded-xl border-red-500 bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat p-[.7rem] hover:bg-black hover:bg-opacity-50">
+        <article className="group carousel-item relative flex w-[25rem] cursor-pointer flex-col rounded-xl border border-red-500 bg-[url('/assets/large.jpg')] bg-cover bg-no-repeat p-[.7rem] hover:bg-black hover:bg-opacity-50">
           <div className="ml-auto w-[10%] cursor-pointer">
             <img src="/assets/bookmark-empty.svg" alt="bookmark-icon" />
           </div>
