@@ -9,6 +9,8 @@ interface MovieState {
     movies: MovieObj[]
 }
 
+
+
 export const MovieStore = create<MovieState>(set => (
     
 ));

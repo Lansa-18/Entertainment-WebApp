@@ -1,7 +1,22 @@
 import SearchInput from "../ui/SearchInput";
 import CarouselSlider from "./CarouselSlider";
+import { useQuery } from "@tanstack/react-query";
+import { API_URL } from "../constants";
+import { useEffect } from "react";
 
-export default function main() {
+export default function Main() {
+  const { data } = useQuery({
+    queryKey: ["movies"],
+    queryFn: async () => {
+      const response = await fetch(`${API_URL}`);
+      return await response.json();
+    },
+  });
+
+  useEffect(() => {
+    console.log(data);
+  }, [data]);
+
   return (
     <>
       <main className="flex flex-col gap-[.5rem] border-red-500">
