@@ -8,7 +8,7 @@ export default function Main() {
   const { data } = useQuery({
     queryKey: ["movies"],
     queryFn: async () => {
-      const response = await fetch(`${API_URL}`);
+      const response = await fetch(`${API_URL}&s=movie&page=1`);
       return await response.json();
     },
   });
